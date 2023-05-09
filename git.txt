@@ -13,3 +13,4 @@ obtendo arquivos
 Na duvida? use:
 git log --- historico de mudanças no diretorio
 git status --- mostra arquivos que ainda não foram add ou commitados
+code . --- abre o git com o diretorio
