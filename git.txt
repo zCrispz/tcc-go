@@ -3,12 +3,18 @@ Principal
 	2-git add . ou arquivo --- adiciona os arquivos do depositorio para o git
 	3-git commit -m "ue" --- coloca os arquivos para o repositorio
 	2/3- git commit -am "ue" --- forma masi rapida de commitar, mas não funciona se não for usado git add pelo manos uma vez no arquivo
-	4-git remote add origin https://github.com/TheDarkzinho/tcc-go --- define onde será(GITHUB) enviado os arquivos
-	5-git push origin master --- manda os arquivos já comitados para o github
-	2/3-
+	4-git remote add origin https://github.com/TheDarkzinho/tcc-go --- define onde será(GITHUB) enviado os arquivos(nome da 'variavel' e origin)
+	5-git push origin master --- manda os arquivos já comitados para o github(no caso no repositorio do origin e branch master)
+
 obtendo arquivos
 	1-ir até a pasta
 	2-git clone https://github.com/TheDarkzinho/tcc-go --- irá baixar todos arquivos
+
+branches
+	git branch ue --- cria um novo branch(no caso ue)
+	git branches --- irá mostra todos presente no repositorio
+	git checkout ue --- irá para o branch desejado(no caso ue)
+	
 
 Na duvida? use:
 git log --- historico de mudanças no diretorio
